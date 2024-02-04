@@ -1,0 +1,98 @@
+﻿<IDOCTYPE html>  <head> 
+<link rel= "stylesheet" href="styles.ccs">
+
+<title> Calculo de IMC Indice Masa Corporal </title> 
+
+<meta http-equiv = "Content-Type" content = “text / html; charset = utf-8"> 
+
+<meta name = "description" content = "IMC, indice para saber y mejorar tu salud y estilo de vida"> 
+
+<meta name = "keywords" content = "peso, masa, altura"> 
+
+<link rel = "stylesheet" type = "text / css" href ="/ style.css”> 
+
+</head>
+<body> 
+
+<h1> IMC </h1> 
+
+<div id = "mainContent"> 
+
+<p> El índice de masa corporal (IMC) es la relación entre la masa corporal de una persona y su estatura. Según los valores propuestos por la Organización Mundial de la Salud (OMS), el IMC es uno de los principales recursos para evaluar el estado nutricional.</a>,,
+</p> 
+
+<p> COMO SE MIDE: </p> 
+
+<img src = "https://images.app.goo.gl/ rBYew2puMQfRZj8JA" alt = "Lucky"> 
+
+</div> <div id = "barra lateral"> <h2> > Calculadora del índice de masa corporal
+
+</h2> 
+<p> Aceptamos:</p> 
+
+<ol> 
+
+<li> Tarjetas de cr FB] ito</li> <li> Efectivo</li> 
+
+<li> Cheques</li> 
+
+</ol> 
+<Script>
+ Funtion calcularimc(){
+let a = document.getElementByld(altura).value;
+
+let b = document.getElementByld(peso).value;
+
+let imc = b / (a*a); // let declara una variable y le asigna un valor con = 
+
+letd ="'; 
+
+if (imc < 16) ([//ejemplo de condicional anidado 
+
+d = 'Infrapeso: Delgadez Severa'; 
+
+) else if (16 <= imc 88 imc <= 16.99) [ // 8 es un operador | $3 ico equivalente a AND 
+
+d = 'Infrapeso: Delgadez moderada"; // en d se almacena el resultado correspondiente 
+
+) else if (17 <= imc 88 imc <= 18.49) [ d = Infrapeso: Delgadez aceptable”; 
+
+) else if (18.50 <= imc 8:8 imc <= 24.99) ([ 
+) else if (16 <= imc 88 imc <= 16.99) [ // 8.8: es un operador | ÉS ico equivalente a AND 
+
+d = 'Infrapeso: Delgadez moderada'; // en d se almacena el resultado correspondiente 
+
+) else if (17 <= imc 8:8 imc <= 18.49) ( 
+
+d = Infrapeso: Delgadez aceptable'; 
+
+) else if (18.50 <= imc 8.8 imc <= 24.99) ( d = 'Peso Normal; 
+
+) else if (25.00 <= imc £:8 imc <= 29.99) ( d = 'Sobrepeso'; 
+
+) else if (30.00 <= imc 8.8 imc <= 34.99) ( d = 'Obeso: Tipo Il; 
+
+) else if (35.00 <= imc 2.8 imc <= 40.00) ( d = 'Obeso: Tipo Il'; 
+
+) else if (imc > 40.00) ( 
+
+d = 'Obeso: Tipo Ill”; 
+
+documento.getElementById("rimc").value = imc + " " + d;
+}
+</script>
+<Form>
+<Input type="number" id="altura">
+<Input type="number" id="peso">
+<Input type="text" id="rimc">
+<Button onclick="calcularimc()"><button/>
+</Form>
+
+</div> 
+
+</body> 
+
+</html> 
+
+
+

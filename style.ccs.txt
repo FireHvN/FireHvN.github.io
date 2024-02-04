@@ -1,0 +1,53 @@
+﻿<style> 
+
+body ( 
+
+background-color: 000000; color: 4FFFFFF; 
+
+padding: 20px; 
+
+font: 18px Arial, Tahoma; 
+
+) 
+
+div ([ 
+
+width: 50px; 
+
+height: 50px; 
+
+border: 1px solid H+FFFFFF; ) 
+
+</style> 
+
+function cambiar_fondo_con_style(colorsel) 
+
+( 
+
+var color = document.getElementByld(colorsel).style.b ackgroundColor; 
+
+document.body.style.backgroundColor= color; 
+
+) </script> </head> <body> 
+
+<p>Da click en un recuadro para cambiar el fondo de la p E ina</p> 
+
+<div id = "1" style = "background-color: HH999;" onclick = "cambiar_fondo_con_style(id)"></div> 
+
+<div id = "2" style = "background-color: 14333; onclick = "cambiar_fondo_con_style(id)"></div> 
+</script> </head> <body> 
+
+<p>Da click en un recuadro para cambiar el fondo de la p H% ina</p> 
+
+<div id = "1" style = "background-color: HH999;" onclick = "cambiar_fondo_con_style(id)"></div> 
+
+<div id = "2" style = "background-color: $333," onclick = "cambiar_fondo_con_style(id)"></div> 
+
+<div id = "3" style = "background-color: H666;" onclick = "cambiar_fondo_con_style(id)"></div> 
+
+</body> 
+
+</html> 
+
+
+
